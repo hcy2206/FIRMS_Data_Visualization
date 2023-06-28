@@ -25,4 +25,6 @@ modis/*
 !modis/modis_empty.csv
 !modis/2022
 !modis/2021
+!modis/2020
+!modis/2019
 modis.7z
