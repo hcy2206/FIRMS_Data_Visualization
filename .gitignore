@@ -1,0 +1,26 @@
+
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# test files
+test.py
+
+# secret keys
+key
+
+# ingore .DS_Store files created by Mac OS
+.DS_Store
+
+
+# large data files
+# Please download them from onedrive link, and put them in the data folder.
+# The link i will show you in readme file.
+modis/*
+!modis/modis_empty.csv
+modis.7z
