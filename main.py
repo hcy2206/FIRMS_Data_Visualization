@@ -239,9 +239,9 @@ with st.sidebar:
         elif time_scale == 'Month':
             begin_left.write('**Begin Month**')
             end_right.write('**End Month**')
-            year_begin = begin_left.selectbox(label='Year', options=list(range(2016, 2023)), index=20,
+            year_begin = begin_left.selectbox(label='Year', options=list(range(2000, 2023)), index=20,
                                               key='year_begin')
-            year_end = end_right.selectbox(label='Year', options=list(range(2016, 2023)), index=22, key='year_end')
+            year_end = end_right.selectbox(label='Year', options=list(range(2000, 2023)), index=22, key='year_end')
             if year_begin == 2000:
                 month_begin = begin_left.selectbox(label='Month', options=list(range(11, 13)), index=0,
                                                    key='month_begin')
@@ -253,9 +253,9 @@ with st.sidebar:
             else:
                 month_end = end_right.selectbox(label='Month', options=list(range(1, 13)), index=11, key='month_end')
         elif time_scale == 'Year':
-            year_begin = begin_left.selectbox(label='Begin Year', options=list(range(2016, 2023)), index=20,
+            year_begin = begin_left.selectbox(label='Begin Year', options=list(range(2000, 2023)), index=20,
                                               key='year_begin')
-            year_end = end_right.selectbox(label='End Year', options=list(range(2016, 2023)), index=22, key='year_end')
+            year_end = end_right.selectbox(label='End Year', options=list(range(2000, 2023)), index=22, key='year_end')
 
         submit = st.button(label='Submit & Refresh', help='Click to get data')
 
