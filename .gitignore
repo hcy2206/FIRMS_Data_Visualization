@@ -23,5 +23,6 @@ key
 # The link i will show you in readme file.
 modis/*
 !modis/modis_empty.csv
+!modis/2022
 !modis/2022/*
 modis.7z
