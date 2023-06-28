@@ -11,7 +11,7 @@ def install_requirements():
 
 
 # For Online Deployment
-# install_requirements()
+install_requirements()
 
 
 @st.cache_data
