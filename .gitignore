@@ -30,4 +30,8 @@ modis/*
 !modis/2018
 !modis/2017
 !modis/2016
+#!modis/2015
+#!modis/2014
+#!modis/2013
+#!modis/2012
 modis.7z
