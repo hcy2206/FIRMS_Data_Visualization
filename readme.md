@@ -14,4 +14,4 @@ This project is based on [Fire Information for Resource Management System (FIRMS
 ## How to use
 Download the python code, make sure you have installed the package `streamlit` and everyone imported on the top of the `main.py` file. Then run the code by `streamlit run main.py`, you will see the visualization in your browser.
 
-Later I will create a requirement file to make it easier to install the packages.
+I have created a requirement file to make it easier to install the packages.
