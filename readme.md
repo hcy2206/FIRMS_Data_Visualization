@@ -4,6 +4,7 @@
 [![Streamlit Version](https://img.shields.io/badge/streamlit-1.23.1-blue)](https://docs.streamlit.io/en/stable/)
 [![GPLv3 License](https://img.shields.io/github/license/hcy2206/FIRMS_Data_Visualization)](https://opensource.org/licenses/GPL-3.0)
 [![NASA](https://img.shields.io/badge/Data%20Source-NASA%20FIRMS-red)](https://firms.modaps.eosdis.nasa.gov/)
+[![BaiduMap](https://img.shields.io/badge/API-Baidu%20Maps%20Open%20Platformp-green)](https://lbs.baidu.com/)
 
 ## Introduction
 In this project, I have used the FIRMS data to create a visualization of the fire incidents that have occurred. It provides a lot of dimensions to filter the data. You can choose different countries and different days to see the fire incidents. You can also choose different satellite instruments to see the fire incidents. 
